@@ -1,45 +1,43 @@
 
-/*//META{"name":"Eltand","description": "Requires BetterDiscord's Normalized classes function to be enabled. Visit our website (beta)","author":"D1R0","version":"1.0.2", "website":"http://www.eltand-testing.epizy.com"}*//**/	
-/*Import CSS From Github*/	
 @import url('https://tropix126.github.io/BetterDiscordStuff/aurora/css/base.css');	
 
 :root {	
-/*Color Variables*/	
-	--main-color: linear-gradient(150deg, var(--gradient1), var(--gradient2)); /*Accent Color of the Theme*/	
-	--gradient1: #2600ff; /*First Gradient Color*/	
-	--gradient2: #9d1818; /*Second Gradient Color*/	
-	--hover-color: rgb(241, 28, 0); /*Secondary Accent of the Theme*/	
-	--main-color-faded: rgba(67, 206, 162, 0.2); /*Faded Main Color*/	
-/*Backdrop Variables*/	
-	--backdrop: url(https://i.imgur.com/O7kS4y6.jpg); /*Normal Backdrop*/	
-	--backdropblurred: url(https://i.imgur.com/KtgecXc.jpg); /*Darker/Blurred Version of Backdrop*/	
-	--backdrop-darkness:transparent; /*Brightness of var(--backdrop);*/	
-/*Roundness Variables*/	
-	--chat-avatar-roundness:5px !important; /*Roundness of chat avatars*/	
-	--media-roundness:50px !important; /*General Roundness*/	
-	--guild-hovered-roundness:12px !important; /*Roundness of servers on hover*/	
-/*Status Variables*/	
-	--online: #43b581 !important; /*Color When someone is Online*/	
-	--idle: #faa61a !important; /*Color When someone is Idle*/	
-	--dnd: #f04747 !important; /*Color When someone is in Do Not Disturb*/	
-	--offline: #636b75 !important; /*Color When someone is offline*/	
-	--invisible: #747f8d !important; /*Color When someone is Invisible*/	
-	--streaming: #643da7 !important; /*Color When someone is Streaming*/	
-}
-
-.containerCozy-jafyvG {
-	background: rgba(0,0,0,0);
-	margin: 15px 15px 0 25px;
-	border-radius: 5px;
-}
-
-.wordmark-2iDDfm:after {
-	content:'Eltand';
-	position: absolute !important;
-	left: 5px;
-	width: 100vw;
-	font-family:'monospace';
-	color: rgba(255,255,255,0.8);
-	font-size: 19px;
-	font-weight:bold;
-}
+	/*Color Variables*/	
+		--main-color: linear-gradient(150deg, var(--gradient1), var(--gradient2)); /*Accent Color of the Theme*/	
+		--gradient1: #ff8800; /*First Gradient Color*/	
+		--gradient2: #9d1818; /*Second Gradient Color*/	
+		--hover-color: rgb(241, 28, 0); /*Secondary Accent of the Theme*/	
+		--main-color-faded: rgba(67, 206, 162, 0.2); /*Faded Main Color*/	
+	/*Backdrop Variables*/	
+		--backdrop: url(https://i.imgur.com/O7kS4y6.jpg); /*Normal Backdrop*/	
+		--backdropblurred: url(https://i.imgur.com/KtgecXc.jpg); /*Darker/Blurred Version of Backdrop*/	
+		--backdrop-darkness:transparent; /*Brightness of var(--backdrop);*/	
+	/*Roundness Variables*/	
+		--chat-avatar-roundness:5px !important; /*Roundness of chat avatars*/	
+		--media-roundness:50px !important; /*General Roundness*/	
+		--guild-hovered-roundness:12px !important; /*Roundness of servers on hover*/	
+	/*Status Variables*/	
+		--online: #43b581 !important; /*Color When someone is Online*/	
+		--idle: #faa61a !important; /*Color When someone is Idle*/	
+		--dnd: #f04747 !important; /*Color When someone is in Do Not Disturb*/	
+		--offline: #636b75 !important; /*Color When someone is offline*/	
+		--invisible: #747f8d !important; /*Color When someone is Invisible*/	
+		--streaming: #643da7 !important; /*Color When someone is Streaming*/	
+	}
+	
+	.containerCozy-jafyvG {
+		background: rgba(0,0,0,0);
+		margin: 15px 15px 0 25px;
+		border-radius: 5px;
+	}
+	
+	.wordmark-2iDDfm:after {
+		content:'Eltand';
+		position: absolute !important;
+		left: 5px;
+		width: 100vw;
+		font-family:'monospace';
+		color: rgba(255,255,255,0.8);
+		font-size: 19px;
+		font-weight:bold;
+	}
